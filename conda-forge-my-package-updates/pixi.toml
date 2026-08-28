@@ -1,0 +1,13 @@
+[workspace]
+authors = ["sophia <scastellarin@quansight.com>"]
+channels = ["conda-forge"]
+name = "conda-forge-my-package-updates"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+open-issues = "python get_my_open_issues.py"
+
+[dependencies]
+python = ">=3.14.7,<3.15"
+gh = ">=2.98.0,<3"
